@@ -10,15 +10,15 @@ description: > # this means to ignore newlines until "baseurl:"
   surround it.  Our goal is to create fine beers that speak to people with an 
   obsession for beer. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://elst.beer" # the base hostname & protocol for your site
+url: "http://dev.elst.beer" # the base hostname & protocol for your site
 
 # Social links.
 # Replace the word 'example' with your username if you want to include the icon in the left sidebar
 # Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-twitter_username:     elstbeer  # Replace this with your Twitter username
-google_plus_username: elstbeer  # Replace this with your Google+ username
-facebook_username:    elstbeer  # Replace this with your Facebook username
+twitter_username:     develstbeer  # Replace this with your Twitter username
+google_plus_username: develstbeer  # Replace this with your Google+ username
+facebook_username:    develstbeer  # Replace this with your Facebook username
 
 # Build settings
 markdown: kramdown
