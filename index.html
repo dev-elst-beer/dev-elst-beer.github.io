@@ -3,27 +3,27 @@ layout: default
 section_id: home
 slides:
   - bg: images/@stock/boxed-slide-5.jpg
-    title: Creative theme
-    tagline: It is very easy to customize
+    title: Elst Brewing Co.
+    tagline: Make time for something Elst.
   - bg: images/@stock/boxed-slide-4.jpg
-    title: Powerful
-    tagline: a Multi-Purpose theme
-works:
+    title: More Stuff
+    tagline: If we want it.
+beers:
   - image: images/@stock/one-page-work-1.jpg
-    title: Beautiful Girl
-    desc: Design &amp; Development
+    title: Belgian Golden Ale
+    desc: A Belgian style pale hoppy beer
     class: graphic-design
   - image: images/@stock/one-page-work-5.jpg
-    title: Look at me
-    desc: Design &amp; Development
+    title: The IPA
+    desc: American style IPA
     class: web-design print
   - image: images/@stock/one-page-work-3.jpg
-    title: Am I cute
-    desc: Design &amp; Development
+    title: Citra IPA
+    desc: American style session IPA with all Citra hops
     class: brand
   - image: images/@stock/one-page-work-4.jpg
-    title: Umbrella
-    desc: Design &amp; Development
+    title: Rye Stout
+    desc: A dark and hearty stout with rye
     class: development
 
 services:
@@ -98,7 +98,7 @@ clients:
   <div class='row'>
     <div class='large-12 columns'>
       <p style='font-size: 1.5rem; font-style: italic;'>
-        This is the introduction of your team, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+        Elst Brewing Company is a brewery startup based in Knoxville Tennessee. Our goal is to create fine beers that speak to people with an obsession for beer.
       </p>
     </div>
   </div>
@@ -116,7 +116,7 @@ clients:
   </div>
   <div class='mod modGallery'>
     <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-      {% for work in page.works %}
+      {% for work in page.beers %}
         <li class='{{work.class}}'>
           <a href='portfolio-item.html'>
             <img alt="" src="{{work.image}}" />
