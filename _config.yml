@@ -1,24 +1,17 @@
 # Site settings
-
-title: Elst Beer # Title of your site
-email: info@elst.beer # Your contant email
-
+title: Meuse
+email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Maker of fine beer in Knoxville Tennessee.  We are inspired by the 
-  tradition of Trappist Belgian breweries.  We also have a deep connection 
-  with our home town of Knoxville and the beauty of the Smoky Mountains that 
-  surround it.  Our goal is to create fine beers that speak to people with an 
-  obsession for beer. 
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://dev.elst.beer" # the base hostname & protocol for your site
-
-# Social links.
-# Replace the word 'example' with your username if you want to include the icon in the left sidebar
-# Delete the word 'example' if you don't want to include the icon in the left sidebar
-
-twitter_username:     develstbeer  # Replace this with your Twitter username
-google_plus_username: develstbeer  # Replace this with your Google+ username
-facebook_username:    develstbeer  # Replace this with your Facebook username
+# url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+paginate: 4
+paginate_path: "blog/page:num"
