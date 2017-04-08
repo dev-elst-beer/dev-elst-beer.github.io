@@ -1,6 +1,12 @@
 - name: Home
   path: index.html
   section_id: home
+- name: About
+  path: about.html
+  section_id: about
+- name: Taproom
+  path: taproom.html
+  section_id: taproom
 - name: Our Beers
   section_id: beers
   children:
@@ -8,9 +14,6 @@
       path: beers.html
     - name: Secret Beers
       path: secret_beers.html
-- name: About
-  path: about.html
-  section_id: about
 - name: Contact
   path: contact.html
   section_id: contact
