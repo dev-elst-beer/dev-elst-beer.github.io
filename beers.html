@@ -5,19 +5,27 @@ draft_beers:
   - image: images/beer/elst_belgian_golden.jpg
     title: Belgian Golden Ale
     desc: A Belgian style pale hoppy beer
+    ingredients: stuff
+    stats: stuff
     class: graphic-design
   - image: images/beer/elst_ipa.jpg
     title: Elst IPA
-    desc: American style IPA
+    desc: A hoppy and bitter, moderately strong American ale, with a mixture of American Centennial, Citra, Chinook hops. The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the citrus hop character to shine through. 
+    ingredients: Brewed with a mixture of American Centennial, Citra, Chinook hops pale and caramel malts and American ale yeast
+    stats: ABV 5.8% SRM 7 IBU 73 OG 1.055
     class: web-design print
   - image: images/beer/elst_citra.jpg
     title: Citra Session IPA
-    desc: American style session IPA with all Citra hops
+    desc: An American style IPA brewed with 100% Citra hops giving this beer a moderate bitterness with strong tropical fruit flavor and aroma. 
+    ingredients: Brewed with Citra hops, pale and light caramel malts, highly attenuated with west coast American ale yeast. 
+    stats: ABV 4.5% SRM 5 IBU 57 OG 1.045
     class: brand
   - image: images/beer/elst_stout.jpg
     title: Rye Stout
     desc: A dark and hearty stout with spicy rye flavor
     class: development
+    ingredients: stuff
+    stats: stuff
 
 bottle_beers:
   - image: images/beer/elst_tripel.jpg
@@ -47,13 +55,14 @@ bottle_beers:
               <img alt="" src="{{site.url}}/{{beer.image}}" />
               <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
                 <div class='thumb-info'>
-                  <h3>{{beer.title}}</h3>
-                  <p>{{beer.desc}}</p>
+                  <h3>coming soon</h3>
                 </div>
               </div>
             </a>
             <h3>{{beer.title}}</h3>
             <p>{{beer.desc}}</p>
+            <p>Ingredients: {{beer.ingredients}}</p>
+            <p>{{beer.stats}}</p>
           </li>
         {% endfor %}
       </ul>
