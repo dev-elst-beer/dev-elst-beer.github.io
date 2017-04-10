@@ -1,31 +1,68 @@
 ---
 layout: default
 section_id: beers
-beers:
-  - image: images/@stock/one-page-work-1.jpg
+draft_beers:
+  - image: images/beer/elst_belgian_golden.jpg
     title: Belgian Golden Ale
     desc: A Belgian style pale hoppy beer
     class: graphic-design
-  - image: images/@stock/one-page-work-5.jpg
-    title: The IPA
+  - image: images/beer/elst_ipa.jpg
+    title: Elst IPA
     desc: American style IPA
     class: web-design print
-  - image: images/@stock/one-page-work-3.jpg
+  - image: images/beer/elst_citra.jpg
     title: Citra Session IPA
     desc: American style session IPA with all Citra hops
     class: brand
-  - image: images/@stock/one-page-work-4.jpg
+  - image: images/beer/elst_stout.jpg
     title: Rye Stout
     desc: A dark and hearty stout with spicy rye flavor
     class: development
 
+bottle_beers:
+  - image: images/beer/elst_belgian_golden.jpg
+    title: Belgian Dubbel Ale
+    desc: 
+    class: graphic-design
+  - image: images/beer/elst_ipa.jpg
+    title: Belgian Tripel
+    desc: 
+    class: web-design print
+  - image: images/beer/elst_citra.jpg
+    title: Belgian Quad
+    desc: 
+    class: brand
+
 ---
+
 
 <div class='full'>
   <div class='row'>
+  <h3>Draft Beer</h3>
     <div class='mod modGallery'>
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
-        {% for beer in page.beers %}
+        {% for beer in page.draft_beers %}
+          <li class='{{beer.class}}'>
+            <a href='{{beer.link_to}}'>
+              <img alt="" src="{{site.url}}/{{beer.image}}" />
+              <div class='overlay' style='background: rgba(143, 221, 115, 0.8);'>
+                <div class='thumb-info'>
+                  <h3>{{beer.title}}</h3>
+                  <p>{{beer.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+  <h3>Draft Beer</h3>
+    <div class='mod modGallery'>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for beer in page.bottle_beers %}
           <li class='{{beer.class}}'>
             <a href='{{beer.link_to}}'>
               <img alt="" src="{{site.url}}/{{beer.image}}" />
