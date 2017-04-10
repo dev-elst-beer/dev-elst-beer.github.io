@@ -9,6 +9,7 @@
   section_id: taproom
 - name: Our Beers
   section_id: beers
+  path: beers.html
   children:
     - name: Flagship Beers
       path: beers.html
