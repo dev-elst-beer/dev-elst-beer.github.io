@@ -3,11 +3,11 @@ layout: default
 section_id: beers
 draft_beers:
   - image: images/beer/elst_belgian_golden.jpg
-    title: Belgian Golden Ale
-    desc: A Belgian style pale hoppy beer
-    ingredients: stuff
-    stats: stuff
-    class: graphic-design
+    title: Belgian Style Golden Ale
+    small_desc: A golden ale with floral hop character
+    desc: A highly attenuated, well carbonated ale with floral hop notes and a spicy yeast character.  Our interpretation of the style brings continental hops to the forefront while maintaining a balance between hops, yeast, and malt.
+    stats: OG 12° | ABV 5.2% | IBUs 26 | SRM 3.7
+    class: belgian
   - image: images/beer/elst_ipa.jpg
     title: Elst IPA
     desc: A hoppy and bitter, moderately strong American ale, with a mixture of American Centennial, Citra, Chinook hops. The balance is hopforward, with a clean fermentation profile, dryish finish, and clean, supporting malt allowing the citrus hop character to shine through. 
@@ -28,15 +28,15 @@ draft_beers:
     stats: stuff
 
 bottle_beers:
-  - image: images/beer/elst_tripel.jpg
+  - image: images/beer/elst_dubbel.jpg
     title: Belgian Dubbel Ale
     desc: 
     class: graphic-design
-  - image: images/beer/elst_tripel.jpg
+  - image: images/beer/elst_tripel2.jpg
     title: Belgian Tripel
     desc: 
     class: web-design print
-  - image: images/beer/elst_tripel.jpg
+  - image: images/beer/elst_quad.jpg
     title: Belgian Quad
     desc: 
     class: brand
@@ -60,9 +60,9 @@ bottle_beers:
               </div>
             </a>
             <h3>{{beer.title}}</h3>
-            <p>{{beer.desc}}</p>
-            <p>Ingredients: {{beer.ingredients}}</p>
+            <p>{{beer.small_desc}}</p>
             <p>{{beer.stats}}</p>
+            <p>{{beer.desc}}
           </li>
         {% endfor %}
       </ul>
