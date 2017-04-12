@@ -4,9 +4,9 @@
 - name: About
   path: about.html
   section_id: about
-- name: Taproom
-  path: taproom.html
-  section_id: taproom
+- name: Tasting Room
+  path: tasting_room.html
+  section_id: tasting_room
 - name: Our Beers
   section_id: beers
   path: beers.html
