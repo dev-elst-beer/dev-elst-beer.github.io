@@ -49,7 +49,7 @@ bars:
         <div class='slides'>
           {% for slide in page.slides %}
             <div class='slide'>
-              <img alt="" src="{{slide.bg}}" a="{{slide.link}}" />
+              <a href="{{slide.link}}"> <img alt="" src="{{slide.bg}}" /> </a>
               <div class='caption'>
                 <p>{{slide.title}}</p>
                 <h2>{{slide.tagline}}</h2>
