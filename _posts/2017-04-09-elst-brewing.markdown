@@ -13,8 +13,8 @@ Hellooooo Knoxville!!!  Elst Brewing Company is proud to announce that we are ac
 
 The Elst team is a group of friends and neighbors that all share the same vision for creating world class beer in our home town of Knoxville, TN.  We have spent many years crafting recipes, studying brewing, and researching the possibility of opening our own brewery.  The opportunity we have been looking for has finally come together and we feel like it is the perfect time to join the growing group of breweries in the Knoxville area.
 
-We love to create all styles of beer!  From the subtle flavors of traditional styles to explosive experimental ales, Elst wants to provide an experience with every beer that we make.  We believe that every glass is an opportunity to think, wonder, and enjoy the 
+We love to create all styles of beer!  From the subtle flavors of traditional styles to explosive experimental ales, Elst wants to provide an experience with every beer that we make.  We believe that every glass is an opportunity to think, wonder, and enjoy the ...
 
-Elst!
+
 
 
