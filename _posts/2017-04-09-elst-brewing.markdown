@@ -7,7 +7,6 @@ tags:
   - announcements
 author: admin
 images:
-excerpt: Hellooooo Knoxville!!!  Elst Brewing Company is proud to announce that we are actively working on securing a property on North Central St. in the Oakwood neighborhood.
 ---
 
 Hellooooo Knoxville!!!  Elst Brewing Company is proud to announce that we are actively working on securing a property on North Central St. in the Oakwood neighborhood.  We will start with a tasting room that will serve our favorite beers from around town and around the world.  The opening of the tasting room will soon be followed by the opening of our own brewery to share our creations with the Knoxville community.  Target opening for the tasting room is Fall 2017 with the brewery opening Winter 2017/2018.
