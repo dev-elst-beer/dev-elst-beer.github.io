@@ -1,32 +1,21 @@
 ---
 layout: post
-title:  "Inroducing Elst Brewing Co!"
-date:   2015-05-02 10:20:05
-categories: jekyll update
+title:  "Introducing Elst Brewing Co!"
+date:   2017-04-11 12:00:00
+categories: startup
 tags:
-  - logo
-  - development
+  - announcements
 author: admin
 images:
+excerpt: Hellooooo Knoxville!!!  Elst Brewing Company is proud to announce that we are actively working on securing a property on North Central St. in the Oakwood neighborhood.
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Hellooooo Knoxville!!!  Elst Brewing Company is proud to announce that we are actively working on securing a property on North Central St. in the Oakwood neighborhood.  We will start with a tasting room that will serve our favorite beers from around town and around the world.  The opening of the tasting room will soon be followed by the opening of our own brewery to share our creations with the Knoxville community.  Target opening for the tasting room is Fall 2017 with the brewery opening Winter 2017/2018.
 
-Jekyll also offers powerful support for code snippets:
+The Elst team is a group of friends and neighbors that all share the same vision for creating world class beer in our home town of Knoxville, TN.  We have spent many years crafting recipes, studying brewing, and researching the possibility of opening our own brewery.  The opportunity we have been looking for has finally come together and we feel like it is the perfect time to join the growing group of breweries in the Knoxville area.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+We love to create all styles of beer!  From the subtle flavors of traditional styles to explosive experimental ales, Elst wants to provide an experience with every beer that we make.  We believe that every glass is an opportunity to think, wonder, and enjoy the 
 
-<br />
+Elst!
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
