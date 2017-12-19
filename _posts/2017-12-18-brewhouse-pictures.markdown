@@ -10,7 +10,7 @@ images:
 ---
 
 Some people say... the brewhouse is the heart of the brewery.  The Elst brewhouse will be a 10bbl system
-manufactured by [Smart Machine Technologies (SMT)](http://www.smartmachine.com/).
+manufactured by [Smart Machine Technologies \(SMT\)](http://www.smartmachine.com/).
 We chose SMT because of their ability to work with us on custom specs for the brewhouse and they are located close by in
  Ridgeway Virginia.  The brewhouse is being manufactured to fit the best layout for our space. Our mash tun will give us
   the flexibility to mash at different temperatures throughout the mashing process.  This is a technique that is used in
